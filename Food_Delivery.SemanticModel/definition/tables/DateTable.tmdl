@@ -1,0 +1,81 @@
+table DateTable
+	lineageTag: 087d80b5-b940-4c7e-b940-08fdd8d28406
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: afdc5060-8704-4b1a-ba55-a981e0e666b5
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 4d3c901c-97d0-4657-a1ee-75fe1c636b65
+			defaultHierarchy: LocalDateTable_a53404f7-9cf6-45af-8c5b-5de5e0b2a31d.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 79d8f27f-af35-475b-85ad-b4becd231d0f
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthNo
+		dataType: int64
+		formatString: 0
+		lineageTag: ff2633d6-428d-4c32-bed8-c4b22dc8a6fd
+		summarizeBy: sum
+		sourceColumn: MonthNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthName
+		dataType: string
+		lineageTag: 0ac06c95-441f-4dce-b405-e05636e95a63
+		summarizeBy: none
+		sourceColumn: MonthName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: ef46448f-fdd1-41ea-b0c9-335f1bf4f796
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day
+		dataType: int64
+		formatString: 0
+		lineageTag: 14d7838e-7a4e-40e6-8fcb-448f414fee4d
+		summarizeBy: sum
+		sourceColumn: Day
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DateTable = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\patel\OneDrive\Desktop\food_dataset.xlsx"), null, true),
+				    DateTable_Sheet = Source{[Item="DateTable",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(DateTable_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Date", type date}, {"Year", Int64.Type}, {"MonthNo", Int64.Type}, {"MonthName", type text}, {"Quarter", type text}, {"Day", Int64.Type}}),
+				    #"Trimmed Text" = Table.TransformColumns(Table.TransformColumnTypes(#"Changed Type", {{"Date", type text}}, "en-US"),{{"Date", Text.Trim, type text}}),
+				    #"Cleaned Text" = Table.TransformColumns(#"Trimmed Text",{{"Date", Text.Clean, type text}})
+				in
+				    #"Cleaned Text"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

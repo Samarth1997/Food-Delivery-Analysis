@@ -1,0 +1,22 @@
+relationship a0bde30f-f82b-44de-a752-3fdb8f84cb23
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Customers.SignupDate
+	toColumn: LocalDateTable_6b60773e-09fb-406f-806e-be8161ad648c.Date
+
+relationship 544f708d-29a5-e78a-2198-9211ee3ffdcb
+	fromColumn: Orders.RestaurantID
+	toColumn: Restaurants.RestaurantID
+
+relationship dbd614de-f392-c94c-c58b-1671194ab997
+	fromColumn: Orders.OrderDate
+	toColumn: DateTable.Date
+
+relationship 25ad2642-e67c-5ee9-ab1d-a85fb1d182ad
+	fromColumn: Orders.CustomerID
+	toColumn: Customers.CustomerID
+
+relationship 4d3c901c-97d0-4657-a1ee-75fe1c636b65
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DateTable.Date
+	toColumn: LocalDateTable_a53404f7-9cf6-45af-8c5b-5de5e0b2a31d.Date
+

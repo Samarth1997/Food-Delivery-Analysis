@@ -1,0 +1,86 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 238
+          },
+          "nodeIndex": "Customers",
+          "nodeLineageTag": "0a4c185a-bdca-4289-990e-8dd6b807fa74",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 325,
+            "y": 316.40000915527344
+          },
+          "nodeIndex": "DateTable",
+          "nodeLineageTag": "087d80b5-b940-4c7e-b940-08fdd8d28406",
+          "size": {
+            "height": 194,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 238,
+            "y": 0
+          },
+          "nodeIndex": "Orders",
+          "nodeLineageTag": "d2b9f14e-c0cd-4e9a-852a-29f9b019160f",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 542,
+            "y": 0
+          },
+          "nodeIndex": "Restaurants",
+          "nodeLineageTag": "c42ceca2-45cf-4d29-bee5-56d97e796e27",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 922,
+            "y": 155.20000457763672
+          },
+          "nodeIndex": "KPI",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

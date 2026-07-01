@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Food_Delivery"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "172a1a9e-d038-4473-91c1-f95462ee50b0"
+  }
+}

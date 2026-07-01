@@ -1,0 +1,93 @@
+table Customers
+	lineageTag: 0a4c185a-bdca-4289-990e-8dd6b807fa74
+
+	measure customer_return = CALCULATE(COUNTROWS(Customers),Customers[New_Or_Return]="Repeat")
+		formatString: 0
+		lineageTag: 67ff8dec-93f1-4cd8-aeed-eb9debad4725
+
+	column CustomerID
+		dataType: string
+		lineageTag: a775c089-5343-4b08-a164-5cd7360a7de2
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerName
+		dataType: string
+		lineageTag: 5217834e-c41d-490f-909d-d4c31dc58dad
+		summarizeBy: none
+		sourceColumn: CustomerName
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 3400840a-2832-483f-a5b8-d31147d3bbe4
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column SignupDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e912be53-e204-4483-9d20-f63dec049877
+		summarizeBy: none
+		sourceColumn: SignupDate
+
+		variation Variation
+			isDefault
+			relationship: a0bde30f-f82b-44de-a752-3fdb8f84cb23
+			defaultHierarchy: LocalDateTable_6b60773e-09fb-406f-806e-be8161ad648c.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CustomerType
+		dataType: string
+		lineageTag: a260ae48-f374-4b31-880b-737fe8eb8eb9
+		summarizeBy: none
+		sourceColumn: CustomerType
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Filter City' =
+			VAR val = Customers[City]
+			VAR wordCount = LEN(val) - LEN(SUBSTITUTE(val, " ", "")) + 1
+			RETURN
+			IF(
+			
+			ISBLANK(val) || wordCount > 4 || LEN(val) > 50,
+			BLANK(),
+			val
+			)
+		lineageTag: 24225638-b18b-44bc-9a51-b577447be404
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column New_Or_Return = IF(Customers[CustomerType]=="New","New","Repeat")
+		lineageTag: a9cbc640-002a-488a-9771-05ae02ada796
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Customers = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\patel\OneDrive\Desktop\food_dataset.xlsx"), null, true),
+				    Customers_Sheet = Source{[Item="Customers",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Customers_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"CustomerID", Int64.Type}, {"CustomerName", type text}, {"City", type text}, {"SignupDate", type date}, {"CustomerType", type text}}),
+				    #"Trimmed Text" = Table.TransformColumns(Table.TransformColumnTypes(#"Changed Type", {{"CustomerID", type text}}, "en-US"),{{"CustomerID", Text.Trim, type text}}),
+				    #"Cleaned Text" = Table.TransformColumns(#"Trimmed Text",{{"CustomerID", Text.Clean, type text}})
+				in
+				    #"Cleaned Text"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
