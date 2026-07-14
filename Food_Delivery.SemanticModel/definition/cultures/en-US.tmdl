@@ -19,12 +19,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "customer": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "client": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -111,20 +105,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "customer ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ID": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "ID": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -254,20 +235,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "customer name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "name": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "name": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -397,12 +365,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "city": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "metropolis": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -459,12 +421,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signup date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "SignupDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -473,13 +429,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -524,20 +473,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signup date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -563,30 +499,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signup year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "signup date year": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "signup date year": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -661,30 +579,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signup quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "signup date quarter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "signup date quarter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -759,30 +659,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signup month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "signup date month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "signup date month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -857,30 +739,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signup day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "signup date day": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "signup date day": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -922,12 +786,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "customer type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "CustomerType": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -936,13 +794,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1064,12 +915,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "filter city": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "filter location": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1136,12 +981,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "new or return": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "New_Or_Return": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -1155,34 +994,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "new": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "new return": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "new return": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "return": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "return": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1304,12 +1122,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "customer return": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "customer_return": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -1318,13 +1130,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "return": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "return": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1441,12 +1246,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "date table": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date table": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1574,12 +1373,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "moment": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1618,13 +1411,6 @@ cultureInfo en-US
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
-			        },
-			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
@@ -1647,19 +1433,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date year": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date year": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1724,19 +1498,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date quarter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date quarter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1801,19 +1563,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1878,19 +1628,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date day": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date day": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1932,12 +1670,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "yr": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1961,12 +1693,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "month no": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "month no": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -2010,12 +1736,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "month name": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "month name": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -2093,12 +1813,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "qtr": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -2123,12 +1837,6 @@ cultureInfo en-US
 			          "day": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -2142,12 +1850,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "order": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "order": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -2268,20 +1970,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "order ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ID": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "ID": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2354,12 +2043,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "restaurant ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "RestaurantID": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2422,12 +2105,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "customer ID": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "customer ID": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -2555,12 +2232,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "order date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "OrderDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2569,13 +2240,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -2618,12 +2282,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "order value": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "OrderValue": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2632,13 +2290,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "value": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "value": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2760,12 +2411,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "delivery time min": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "DeliveryTimeMins": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2774,13 +2419,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "time min": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "time min": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2902,12 +2540,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "order status": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "OrderStatus": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2916,13 +2548,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "status": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "status": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3044,12 +2669,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quantity": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "extent": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -3122,12 +2741,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "order time": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "order time": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3205,12 +2818,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "order month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Order_Months": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3240,12 +2847,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "total order": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "total order": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3373,12 +2974,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "total revenue": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Total_Revenue": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3387,13 +2982,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "revenue": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "revenue": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3511,12 +3099,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "avg order value": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "avg order value": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3644,12 +3226,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "avg delivery time": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Avg_Delivery_Time": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3729,12 +3305,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "total customer": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "total customer": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3852,12 +3422,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "total restaurants": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Total_Restaurants": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3866,13 +3430,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "restaurants": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "restaurants": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3994,12 +3551,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "delivered orders": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Delivered_Orders": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4008,13 +3559,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "orders": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "orders": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4132,12 +3676,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "canceled order": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "canceled order": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4265,12 +3803,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cancellation percent": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Cancellation_Percent": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4354,12 +3886,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "late delivered": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Late_Delivered": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4383,12 +3909,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "late delivery percent": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Late_Delivery_Percent": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4397,13 +3917,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "delivery percent": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "delivery percent": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4525,12 +4038,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "repeat customers": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Repeat_Customers": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4539,13 +4046,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "customers": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "customers": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4667,12 +4167,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "repeat customer percent": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Repeat_Customer_Percent": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4681,13 +4175,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "customer percent": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "customer percent": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4809,12 +4296,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "orders per customer": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Orders_per_customer": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4823,13 +4304,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "orders": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "orders": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4951,12 +4425,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "revenue per resturant": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Revenue_Per_Resturant": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5016,12 +4484,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "avg rating": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "avg rating": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -5149,12 +4611,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "avg vote": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Avg_Vote": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5228,12 +4684,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "revenue YTD": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Revenue_YTD": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5242,13 +4692,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "YTD": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "YTD": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5330,12 +4773,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "order YTD": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Order_YTD": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5344,13 +4781,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "YTD": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "YTD": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5388,12 +4818,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "revenue previous month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "revenue previous month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -5471,12 +4895,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "revenue growth percent": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Revenue_Growth_Percent": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5485,13 +4903,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "growth percent": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "growth percent": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5612,12 +5023,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "restaurant": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "eatery": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -5734,20 +5139,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "restaurant ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ID": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "ID": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5817,12 +5209,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "address": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "direction": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -5879,33 +5265,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "City": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "City": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "title": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -5948,12 +5307,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "online order": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "online order": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6081,12 +5434,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "book table": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "book_table": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6210,12 +5557,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "rate": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "degree": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -6332,12 +5673,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "vote": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "division": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -6390,12 +5725,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "location": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "location": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6506,12 +5835,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "rest type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "rest_type": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6520,13 +5843,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6648,12 +5964,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "dish liked": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "dish_liked": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6703,12 +6013,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "cuisine": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "cuisine": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6777,12 +6081,6 @@ cultureInfo en-US
 			          "costfor two": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "costfor two": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -6801,12 +6099,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "service type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Service_type": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6815,13 +6107,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6943,12 +6228,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "city L ist": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "City_LIst": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7018,12 +6297,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "order online": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "order online": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7149,12 +6422,6 @@ cultureInfo en-US
 			          "Book_Table 2": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "Book_Table 2": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -7169,12 +6436,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "primary cuisine": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "primary cuisine": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7245,20 +6506,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cost bucket": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "bucket": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "bucket": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7340,12 +6588,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "rate bucket": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Rate_Bucket": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7354,13 +6596,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "bucket": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "bucket": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7439,12 +6674,6 @@ cultureInfo en-US
 			          "kpi": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "kpi": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -7463,20 +6692,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "KPI name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "name": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "name": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7539,33 +6755,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "selected KPI value": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "value": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "value": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "KPI value": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "KPI value": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
